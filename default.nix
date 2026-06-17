@@ -7,6 +7,7 @@ pkgs.mkShell {
     clang
     wayland
     libx11
+    gettext
   ];
   nativeBuildInputs = [
     pkgs.libGL
